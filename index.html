@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>MsK حسابات | تحميل التطبيق</title>
+  <meta name="description" content="حمّل تطبيق MsK حسابات لإدارة حسابات العملاء والدفاتر والاشتراكات والنسخ الاحتياطي.">
+  <style>
+    :root{--bg:#0b1220;--card:#121d30;--line:#263650;--text:#f4f7fb;--muted:#b6c2d2;--accent:#20c58b;--accent2:#13a875}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;background:radial-gradient(ellipse at top,#1b3150 0,#0b1220 58%);color:var(--text);min-height:100vh}
+    .wrap{width:min(920px,92%);margin:auto;padding:28px 0 42px}
+    header{display:flex;align-items:center;gap:13px;margin-bottom:38px}
+    .logo{width:54px;height:54px;border-radius:16px;background:linear-gradient(145deg,#25d49b,#087b62);display:grid;place-items:center;font-size:22px;font-weight:900;box-shadow:0 8px 28px #00bd8733}
+    .brand{font-size:20px;font-weight:800}.subbrand{font-size:12px;color:var(--muted);margin-top:3px}
+    .hero{background:linear-gradient(145deg,#172840,#111c2d);border:1px solid var(--line);border-radius:28px;padding:clamp(24px,6vw,54px);text-align:center;box-shadow:0 24px 70px #0005}
+    .badge{display:inline-block;border:1px solid #267e68;color:#72e4bd;background:#12382f;padding:7px 14px;border-radius:99px;font-size:13px;font-weight:700}
+    h1{font-size:clamp(32px,7vw,54px);margin:18px 0 10px;line-height:1.2}
+    .lead{color:var(--muted);font-size:clamp(15px,3vw,18px);line-height:1.9;max-width:650px;margin:0 auto}
+    .download{display:inline-flex;align-items:center;justify-content:center;gap:10px;margin:28px auto 12px;padding:16px 30px;border-radius:15px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#06251b;text-decoration:none;font-size:18px;font-weight:900;box-shadow:0 12px 30px #13bd8833;transition:.2s}
+    .download:hover{transform:translateY(-2px);filter:brightness(1.06)}
+    .meta{color:var(--muted);font-size:13px;line-height:1.8}
+    .count{display:inline-flex;align-items:center;gap:8px;margin-top:18px;padding:10px 16px;border:1px solid var(--line);border-radius:99px;background:#0b1627;color:#dce7f3;font-size:14px}
+    .count strong{color:#75e7bd;font-size:17px}
+    .section{margin-top:24px;background:#111c2d;border:1px solid var(--line);border-radius:22px;padding:24px}
+    h2{font-size:21px;margin:0 0 18px}
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+    .feature{background:#0d1829;border:1px solid #23334b;border-radius:14px;padding:15px;color:#e8eef6;line-height:1.7}
+    .feature span{display:block;font-size:21px;margin-bottom:5px}
+    .note{color:var(--muted);font-size:13px;line-height:1.8;margin:16px 0 0}
+    footer{text-align:center;color:#8292a8;font-size:12px;padding:24px 0 0}
+    @media(max-width:520px){.wrap{padding-top:18px}.hero{border-radius:22px}.download{width:100%}.section{padding:19px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="logo">MsK</div>
+      <div><div class="brand">MsK حسابات</div><div class="subbrand">إدارة الدفاتر والعملاء بسهولة</div></div>
+    </header>
+
+    <section class="hero">
+      <span class="badge">الإصدار الرسمي الأول · v1.0.0</span>
+      <h1>كل حساباتك في مكان واحد</h1>
+      <p class="lead">نظّم حسابات العملاء والدفاتر والاشتراكات، وابحث بسرعة، واحتفظ بنسخة احتياطية من بياناتك مع تطبيق MsK حسابات.</p>
+      <a class="download" href="https://github.com/mohamedsamir88MSK/MsK-Downloads/releases/latest/download/MsK.apk">
+        <span aria-hidden="true">⬇</span> تحميل تطبيق MsK حسابات
+      </a>
+      <div class="meta">ملف Android APK · حجم النسخة المنشورة حوالي 32.8 MB</div>
+      <div class="count">إجمالي مرات تنزيل ملف APK: <strong id="downloads">جارٍ التحميل…</strong></div>
+      <div class="meta" id="count-note">يتم جلب العدد من إحصائيات إصدار GitHub الأحدث.</div>
+    </section>
+
+    <section class="section">
+      <h2>أهم مميزات التطبيق</h2>
+      <div class="features">
+        <div class="feature"><span>👥</span>إدارة حسابات العملاء والبحث الشامل عنهم.</div>
+        <div class="feature"><span>📚</span>إنشاء أكثر من دفتر وتنظيم التعاملات.</div>
+        <div class="feature"><span>🔄</span>التحويل بين حسابات العملاء.</div>
+        <div class="feature"><span>☁️</span>النسخ الاحتياطي والاستعادة.</div>
+        <div class="feature"><span>🗓️</span>إدارة اشتراكات العملاء ومواعيد التجديد.</div>
+        <div class="feature"><span>♻️</span>استعادة العملاء والدفاتر المحذوفة.</div>
+      </div>
+      <p class="note">ملاحظة: عدد التنزيلات يعرض عدد مرات تنزيل ملف APK من إصدار GitHub، وليس عدد الأجهزة التي ثبّتت التطبيق فعليًا.</p>
+    </section>
+
+    <footer>© MsK حسابات — جميع الحقوق محفوظة</footer>
+  </main>
+  <script>
+    const api = "https://api.github.com/repos/mohamedsamir88MSK/MsK-Downloads/releases/latest";
+    fetch(api, {headers:{"Accept":"application/vnd.github+json"}})
+      .then(r => { if(!r.ok) throw new Error("تعذر جلب العدد"); return r.json(); })
+      .then(data => {
+        const apk = (data.assets || []).find(a => a.name.toLowerCase() === "msk.apk");
+        document.getElementById("downloads").textContent = apk ? Number(apk.download_count).toLocaleString("en-US") : "غير متاح";
+      })
+      .catch(() => {
+        document.getElementById("downloads").textContent = "غير متاح مؤقتًا";
+        document.getElementById("count-note").textContent = "يمكنك استخدام زر التحميل حتى إذا تعذر تحديث العداد.";
+      });
+  </script>
+</body>
+</html>
